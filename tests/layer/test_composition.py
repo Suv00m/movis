@@ -4,8 +4,8 @@ import tempfile
 import numpy as np
 
 import pytest
-import movis as mv
-from movis.layer import Composition
+import movise as mv
+from movise.layer import Composition
 
 
 def test_create_composition():

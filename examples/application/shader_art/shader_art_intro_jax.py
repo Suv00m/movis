@@ -1,6 +1,6 @@
 from functools import partial
 
-import movis as mv
+import movise as mv
 import numpy as np
 import jax
 import jax.numpy as jnp

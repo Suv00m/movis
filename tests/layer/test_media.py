@@ -4,7 +4,7 @@ import tempfile
 import numpy as np
 import soundfile as sf
 
-import movis as mv
+import movise as mv
 
 
 def test_audio_ndarray():

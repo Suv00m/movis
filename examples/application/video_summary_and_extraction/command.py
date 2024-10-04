@@ -4,7 +4,7 @@ from pathlib import Path
 
 import ffmpeg
 import librosa
-import movis as mv
+import movise as mv
 import numpy as np
 import openai
 import pandas as pd

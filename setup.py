@@ -15,7 +15,7 @@ with open(BASE_DIR / "README.md", encoding="utf-8") as f:
 
 
 setup(
-    name="movis",
+    name="movise",
     version="0.7.1",
     author="Masaki Saito",
     author_email="msaito@preferred.jp",
@@ -31,7 +31,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        "movis": ["py.typed"],
+        "movise": ["py.typed"],
     },
     python_requires=">=3.9.0",
     install_requires=parse_requirements(),

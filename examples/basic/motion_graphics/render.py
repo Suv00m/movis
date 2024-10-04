@@ -1,4 +1,4 @@
-import movis as mv
+import movise as mv
 
 
 def circle_anim(

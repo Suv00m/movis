@@ -1,6 +1,6 @@
 import numpy as np
 
-import movis as mv
+import movise as mv
 
 
 def main():

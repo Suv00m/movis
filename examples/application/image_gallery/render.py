@@ -1,6 +1,6 @@
 import pandas as pd
 
-import movis as mv
+import movise as mv
 
 
 def make_logo(

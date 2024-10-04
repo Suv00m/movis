@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from movis.attribute import Attribute
-from movis.transform import (Direction, Transform, TransformValue,
+from movise.attribute import Attribute
+from movise.transform import (Direction, Transform, TransformValue,
                              transform_to_1dscalar, transform_to_2dvector,
                              transform_to_3dvector)
 

@@ -1,9 +1,9 @@
-import movis as mv
+import movise as mv
 import numpy as np
 import pandas as pd
-from movis import Transform
-from movis.contrib.presentation import Character, Slide
-from movis.contrib.voicevox import make_voicevox_dataframe
+from movise import Transform
+from movise.contrib.presentation import Character, Slide
+from movise.contrib.voicevox import make_voicevox_dataframe
 
 
 def circle_accent_explosion(

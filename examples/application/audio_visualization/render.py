@@ -6,8 +6,8 @@ from PySide6.QtCore import QPointF, Qt
 from PySide6.QtGui import QColor, QImage, QPainter, QPen
 from scipy.interpolate import RegularGridInterpolator
 
-import movis as mv
-from movis.imgproc import qimage_to_numpy
+import movise as mv
+from movise.imgproc import qimage_to_numpy
 
 
 def get_audio_image(path: str):

@@ -1,9 +1,9 @@
 import numpy as np
 import pytest
 
-from movis.attribute import AttributeType
-from movis.motion import Motion
-from movis import Easing
+from movise.attribute import AttributeType
+from movise.motion import Motion
+from movise import Easing
 
 
 def test_motion_call():
