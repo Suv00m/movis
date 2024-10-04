@@ -371,6 +371,14 @@ class Text(AttributesMixin):
         if QCoreApplication.instance() is None:
             QApplication(sys.argv[:1])
         return QFontDatabase.styles(font_name)
+    
+    @staticmethod
+    def add_fonts(font_path: str) -> None:
+        """Add fonts from the given path."""
+        if QCoreApplication.instance() is None:
+            QApplication(sys.argv[:1])
+        QFontDatabase.addApplicationFont(font_path)
+        
 
     @classmethod
     def from_timeline(
