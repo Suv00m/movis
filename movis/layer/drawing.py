@@ -377,8 +377,9 @@ class Text(AttributesMixin):
         """Add fonts from the given path."""
         if QCoreApplication.instance() is None:
             QApplication(sys.argv[:1])
-        QFontDatabase.addApplicationFont(font_path)
-        
+        id = QFontDatabase.addApplicationFont(font_path)
+        return id
+
 
     @classmethod
     def from_timeline(
